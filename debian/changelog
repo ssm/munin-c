@@ -1,0 +1,5 @@
+munin-c (0.0.9-1) UNRELEASED; urgency=low
+
+  * Initial release (Closes: #719449)
+
+ -- Stig Sandbeck Mathisen <ssm@fnord.no>  Wed, 11 Jun 2014 14:12:15 +0200

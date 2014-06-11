@@ -1,0 +1,20 @@
+Source: munin-c
+Section: unknown
+Priority: optional
+Maintainer: Stig Sandbeck Mathisen <ssm@fnord.no>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Homepage: http://munin-monitoring.org/
+
+Package: munin-node-native
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: network-wide graphing framework (node, native)
+ This package contains the daemon for the nodes being monitored. It
+ has the same role as the "munin-node" package, but is written in C
+ and compiled.
+ .
+ Munin is a highly flexible and powerful solution used to create
+ graphs of virtually everything imaginable throughout your network,
+ while still maintaining a rattling ease of installation and
+ configuration. The munin master uses "RRD" as data storage.
