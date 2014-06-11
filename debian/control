@@ -1,5 +1,5 @@
 Source: munin-c
-Section: unknown
+Section: network
 Priority: optional
 Maintainer: Stig Sandbeck Mathisen <ssm@fnord.no>
 Build-Depends: debhelper (>= 8.0.0),
